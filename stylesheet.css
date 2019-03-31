@@ -1,0 +1,80 @@
+#myNavBar {
+    background-color: #336699;
+    box-shadow: 2px 2px 0px 0px #bfbfbf;
+}
+
+#navTitle {
+    font-size: 140%;
+    color: white;
+    font-family: 'Germania One', cursive;
+}
+
+
+body {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#container {
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+}
+
+#conversionDiv {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#toBeConverted {
+    width: 20%;
+}
+
+#inputValue {
+    width: 40%;
+}
+
+
+#convertedSummary {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 60%;
+    margin-top: 10%;
+    align-items: center;
+}
+
+#initialCard, #convertedCard {
+    width: 25%;
+    text-align: center;
+    border: 1px solid #336699;
+    box-shadow: 10px 10px 0 0 #bfbfbf;
+}
+
+#initialValue, #finalValue {
+    font-size: 350%;
+    color: white;
+    background-color: #336699;
+}
+
+.fas {
+    color: #336699;
+}
+
+#reset {
+    display: none;
+}
+
+#spinner
+{
+    display: none;
+    position: fixed;
+    top: 33%;
+}
